@@ -1,0 +1,26 @@
+{
+  "name": "rest-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --timeout=60000 tests/",
+    "start": "MONGO_URI=mongodb+srv://m001-student:XXXXXXXXX@sandbox.hchvh.mongodb.net/iti43 nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "boom": "^7.2.0",
+    "fastify": "4.15.0",
+    "fastify-cors": "^3.0.0",
+    "fastify-swagger": "^2.5.0",
+    "mongoose": "^5.8.3",
+    "nodemon": "^2.0.2",
+    "pino": "^8.11.0"
+  },
+  "devDependencies": {
+    "ava": "^5.2.0",
+    "sinon": "^15.0.3"
+  }
+}
